@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f4f7;
+    
+}
+.sub1{
+    
+    width:55%;
+    height: 100vh;
+    padding-left: 200px;
+    padding-right:70px ;
+    box-sizing: border-box;
+}
+.sub2{
+   
+    width:45%;
+    height: 100vh;
+}
+.main{
+    display:flex;
+}
+img{
+    width:290px;
+    margin-top: 200px;
+
+}
+.sub1 p{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-top:-20px;
+}
+.form-div{
+    width:350px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 150px;
+}
+input{
+    width:90%;
+    box-sizing: border-box;
+    height: 55px;
+    margin-top:10px;
+    
+}
+input[type="submit"]{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-bottom: 28px;
+}
+input[type="text"],input[type="password"]{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding-left: 13px;
+    font-size: 17px;
+    color: red;
+}::placeholder{
+    color:rgb(209, 197, 197);
+}
+.x{
+    text-decoration: none;
+    color: #1752a0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+hr{
+    width: 90%;
+    margin: 20px auto;
+    border:none;
+    border-top: 1px solid rgb(205, 182, 182);
+
+}
+.btn{
+    width:50%;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+    width:350px;
+    margin-top: 20px;
+    text-align: center;
+}
+.p1 a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+  
+@media  only screen and (max-width: 768px) {
+    .main {
+        flex-direction: column; 
+    }
+
+    .sub1{
+        width: 100%; 
+        padding: 2px; 
+        height: auto; 
+
+    } .sub2 {
+        width: 100%; 
+        padding: 2px; 
+        height: auto; 
+        
+    }
+
+    img {
+        width: 200px; 
+        margin: 20px auto; 
+    }
+
+    .form-div {
+        width: 90%; 
+        margin: 20px auto; 
+    }
+
+    input {
+        height: 45px;
+        font-size: 15px; 
+    }
+
+    input[type="submit"] {
+        font-size: 14px; 
+    }
+
+    .btn {
+        width: 70%;
+        height: 40px; 
+        font-size: 14px; 
+    }
+
+    .p1 {
+        font-size: 14px;
+        margin-left: 80px;
+    }
+}
+
